@@ -1,4 +1,4 @@
-# bedrock-code-generation
+# Bedrock-code-generation
 
 Using Aws Bedrock and ai model to generate code and save the output in S3 bucket. 
 Serverless AI Code Generation using Amazon Bedrock
@@ -59,3 +59,4 @@ Client (Postman / Frontend)
                         +------------------+
                         | CloudWatch Logs  |
                         +------------------+
+
