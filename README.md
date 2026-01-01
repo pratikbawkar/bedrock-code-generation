@@ -36,26 +36,4 @@ Client (Postman / Frontend)
 - **Python (boto3)** – AWS SDK
 - **Postman** – API testing
 
----
- 📂 Project Structure
 
-+-------------+       +---------------+       +------------------+
-|   Client    | ----> | API Gateway   | ----> | AWS Lambda       |
-| (Postman)   |       | (POST /code)  |       | (Python)         |
-+-------------+       +---------------+       +------------------+
-                                                     |
-                                                     v
-                                            +------------------+
-                                            | Amazon Bedrock   |
-                                            | (Claude Model)   |
-                                            +------------------+
-                                                     |
-                                                     v
-                                            +------------------+
-                                            | Amazon S3        |
-                                            | code-output/     |
-                                            +------------------+
-
-                        +------------------+
-                        | CloudWatch Logs  |
-                        +------------------+
